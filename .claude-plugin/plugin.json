@@ -1,0 +1,9 @@
+{
+  "name": "unimore-thesis-writer",
+  "version": "1.0.0",
+  "description": "Skill per scrivere tesi di laurea UNIMORE seguendo tutte le regole di formattazione, citazione e stile accademico per ogni dipartimento, con scrittura naturale da studente universitario",
+  "author": {
+    "name": "Mario Codarin"
+  },
+  "keywords": ["unimore", "tesi", "thesis", "università", "accademico", "bibliografia", "citazioni"]
+}
