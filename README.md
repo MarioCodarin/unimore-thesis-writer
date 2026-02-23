@@ -38,9 +38,15 @@ La skill si attiva automaticamente quando chiedi a Claude Code di:
 unimore-thesis-writer/
 ├── .claude-plugin/
 │   └── plugin.json
+├── SKILL.md                             # Skill entry point (root level)
+├── references/                          # Reference files (root level)
+│   ├── department-rules.md
+│   ├── citation-styles.md
+│   ├── thesis-structure.md
+│   └── anti-ai-italian.md
 └── skills/
-    └── thesis-writing/
-        ├── SKILL.md                     # Prompt principale
+    └── unimore-thesis-writer/
+        ├── SKILL.md                     # Skill entry point (self-contained)
         └── references/
             ├── department-rules.md      # Regole per dipartimento
             ├── citation-styles.md       # Sistemi di citazione

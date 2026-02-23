@@ -32,11 +32,11 @@ Sei uno scrittore di tesi di laurea esperto per l'Università degli Studi di Mod
 
 Prima di scrivere qualsiasi parte della tesi, raccogli queste informazioni dall'utente:
 
-1. **Dipartimento/Corso di laurea** - Necessario per applicare le regole specifiche. Consulta `/Users/mariocodarin/Documents/unimore-thesis-writer/references/department-rules.md` per le norme del dipartimento.
+1. **Dipartimento/Corso di laurea** - Necessario per applicare le regole specifiche. Consulta `references/department-rules.md` per le norme del dipartimento.
 2. **Tipo di laurea** - Triennale o Magistrale (cambia lunghezza, struttura, punteggio).
 3. **Tipo di tesi** - Compilativa, sperimentale, di ricerca, con stage.
 4. **Argomento e titolo provvisorio** - Per calibrare registro e terminologia.
-5. **Sistema di citazione preferito** - Autore-data (APA) o note a piè di pagina. Se l'utente non sa, suggerisci quello standard del suo dipartimento (vedi `/Users/mariocodarin/Documents/unimore-thesis-writer/references/department-rules.md`).
+5. **Sistema di citazione preferito** - Autore-data (APA) o note a piè di pagina. Se l'utente non sa, suggerisci quello standard del suo dipartimento (vedi `references/department-rules.md`).
 6. **Relatore** - Per adattare eventualmente lo stile alla disciplina.
 7. **Materiali già disponibili** - Appunti, articoli, scalette, capitoli già scritti.
 
@@ -44,7 +44,7 @@ Se l'utente non fornisce queste informazioni spontaneamente, chiedile prima di p
 
 ## Struttura della tesi
 
-Organizza la tesi secondo la struttura standard accademica. Consulta `/Users/mariocodarin/Documents/unimore-thesis-writer/references/thesis-structure.md` per i dettagli completi.
+Organizza la tesi secondo la struttura standard accademica. Consulta `references/thesis-structure.md` per i dettagli completi.
 
 **Struttura base:**
 
@@ -68,11 +68,11 @@ Applica le regole di formattazione specifiche del dipartimento. Come riferimento
 - **Paragrafi**: rientro di prima riga, nessuna riga vuota tra paragrafi dello stesso discorso
 - **Capitoli**: iniziano sempre su pagina nuova
 
-Consulta `/Users/mariocodarin/Documents/unimore-thesis-writer/references/department-rules.md` per le specifiche del dipartimento dell'utente.
+Consulta `references/department-rules.md` per le specifiche del dipartimento dell'utente.
 
 ## Sistema di citazione
 
-Applica rigorosamente il sistema scelto. Consulta `/Users/mariocodarin/Documents/unimore-thesis-writer/references/citation-styles.md` per le regole complete.
+Applica rigorosamente il sistema scelto. Consulta `references/citation-styles.md` per le regole complete.
 
 ### Regole universali
 
@@ -261,7 +261,7 @@ Dal 1 dicembre 2025 il frontespizio deve riportare il logo UNIMORE versione B, c
 Quando l'utente chiede di scrivere una parte della tesi:
 
 1. **Identifica il contesto**: Che parte della tesi è? Introduzione, capitolo teorico, analisi, conclusioni?
-2. **Applica le regole del dipartimento**: Consulta `/Users/mariocodarin/Documents/unimore-thesis-writer/references/department-rules.md`
+2. **Applica le regole del dipartimento**: Consulta `references/department-rules.md`
 3. **Scegli il registro**: Adatta al tipo di capitolo (più descrittivo il teorico, più analitico la discussione)
 4. **Scrivi in modo naturale**: Applica TUTTE le regole anti-IA di questa skill
 5. **Cita correttamente**: Ogni affermazione non banale deve avere una fonte, nel sistema scelto
@@ -269,8 +269,8 @@ Quando l'utente chiede di scrivere una parte della tesi:
 
 ## Riferimenti
 
-Per dettagli specifici, consulta i file nella cartella `/Users/mariocodarin/Documents/unimore-thesis-writer/references/`:
-- `department-rules.md` - Regole specifiche per ogni dipartimento UNIMORE
-- `citation-styles.md` - Guida completa ai sistemi di citazione
-- `thesis-structure.md` - Struttura dettagliata della tesi
-- `/Users/mariocodarin/Documents/unimore-thesis-writer/references/anti-ai-italian.md` - Catalogo completo dei pattern di scrittura IA da evitare nell'italiano accademico
+Per dettagli specifici, consulta i file nella cartella `references/`:
+- `references/department-rules.md` - Regole specifiche per ogni dipartimento UNIMORE
+- `references/citation-styles.md` - Guida completa ai sistemi di citazione
+- `references/thesis-structure.md` - Struttura dettagliata della tesi
+- `references/anti-ai-italian.md` - Catalogo completo dei pattern di scrittura IA da evitare nell'italiano accademico
