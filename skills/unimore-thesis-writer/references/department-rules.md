@@ -230,6 +230,18 @@ Questo file contiene le regole specifiche di formattazione, citazione e struttur
 | Caratteri per riga | circa 90 |
 | Righe per pagina | 30-35 |
 
+### Sistema di note (DESU)
+- DESU ambito pedagogico/umanistico: **endnotes `[N]`** con numerazione progressiva unica su tutta la tesi
+- Sezioni `## NOTE DEL CAPITOLO I/II/III` e `## NOTE DELLE CONCLUSIONI` in fondo a ogni sezione principale
+- Formato nota: `[N] Cfr. ...` — vedere `citation-styles.md` per formato completo per ogni tipo di fonte
+- Densità note consigliata: 1-3 note per paragrafo medio; 4+ note per paragrafi con dati empirici
+- Posizione `[N]` nel testo: **dopo** la virgola/punto finale del periodo (`parola, [N]` oppure `periodo.[N]`)
+
+### Caratteri (DESU)
+- **Obiettivo**: 80.000-140.000 caratteri (spazi inclusi)
+- **Soglia critica**: non scendere sotto 73.000 caratteri
+- Se sotto soglia: densificare ogni sezione con 1-2 dati empirici specifici per sottosezione (vedere SKILL.md "Densificazione semantica")
+
 ### Lunghezza (DESU - da indicazioni tesi)
 - **80.000 - 140.000 caratteri** (spazi inclusi)
 

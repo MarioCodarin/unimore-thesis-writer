@@ -279,6 +279,78 @@ L'IA produce liste di esattamente tre elementi con frequenza innaturale.
 
 ---
 
+---
+
+## Categoria 5: Pattern da imitare (scrittura da 30 e lode)
+
+Questa sezione inverte la prospettiva: non cosa evitare, ma **cosa fare**. Questi sono i pattern che caratterizzano una tesi eccellente, da 30 e lode.
+
+### 5.1 Come introdurre un nuovo autore o studio
+
+**MALE:**
+- "Diversi studi dimostrano che..."
+- "La letteratura mostra che..."
+- "Secondo la ricerca sul tema..."
+
+**BENE:**
+- "La ricerca di Cognome (anno), condotta su [N soggetti/contesto specifico], documenta come [risultato specifico]: il [X]% dei [categoria] [verbo] [dato]."
+- "Nell'indagine longitudinale di Cognome e Cognome (anno) su [N bambini/operatori/famiglie], emerge che [dato concreto]."
+
+**Regola:** Ogni volta che introduci un autore, aggiungi **almeno uno** tra: dimensione del campione, contesto geografico/istituzionale, anno, dato numerico specifico.
+
+### 5.2 Schema argomentativo denso
+
+Un paragrafo da 30 e lode ha questa struttura:
+
+```
+[Affermazione teorica con autore specifico e nota]
+[Dato empirico concreto — %, n, nome studio — con nota]
+[Collegamento al contesto esperienziale: "nel contesto osservato durante il tirocinio..."]
+[Implicazione pedagogica o critica]
+```
+
+Esempio:
+
+> Secondo Cognome (anno), la routine mattutina strutturata riduce i comportamenti disruptivi nei bambini con DSA [N]. Uno studio su 120 classi della scuola primaria ha rilevato una diminuzione del 34% degli episodi di conflitto nelle ore successive all'accoglienza strutturata (Cognome et al., anno) [N]. Nel contesto di tirocinio osservato, l'assenza di un rituale fisso di ingresso coincideva sistematicamente con una fase di transizione prolungata [N]. La struttura rituale assolve dunque una funzione regolatrice che precede — e condiziona — la qualità dell'apprendimento.
+
+### 5.3 Come usare le citazioni dirette («») con efficacia
+
+- Usare solo per frasi di valore teorico intrinseco: definizioni fondamentali, concetti-chiave, formulazioni che perdono significato se parafrasate
+- Massimo 2-3 citazioni dirette per paragrafo lungo
+- Ogni citazione diretta va **seguita da analisi**: non lasciare la citazione come punto finale del ragionamento
+- Dopo la citazione: spiega perché quella formulazione specifica è rilevante per il tuo argomento
+
+**MALE:**
+> Come afferma Cognome (anno), «[citazione]».
+
+*— e il paragrafo finisce lì.*
+
+**BENE:**
+> Come afferma Cognome (anno), «[citazione]» [N]. Questa formulazione cattura il nesso tra [X] e [Y] che è al centro dell'analisi proposta nel presente lavoro: [tua spiegazione].
+
+### 5.4 Equilibrio teoria-pratica
+
+- Ogni capitolo teorico deve avere almeno **un dato empirico per sezione**
+- Ogni capitolo empirico deve **ancorare le osservazioni alla letteratura**
+- Il collegamento avviene con costruzioni come:
+  - "Questa difficoltà, documentata da Cognome (anno) in contesti analoghi, emerge con chiarezza anche nel caso osservato..."
+  - "Il dato è coerente con quanto rilevato da Cognome (anno): il [X]% dei [soggetti] [verbo]..."
+  - "Come osserva Cognome (anno), [concetto], una dinamica riscontrata anche nell'esperienza di tirocinio presso [istituzione]..."
+
+### 5.5 Cautela accademica calibrata
+
+Non usare la stessa forza linguistica per tutti i tipi di evidenza. La voce dello studente va accordata all'evidenza disponibile:
+
+| Forza dell'evidenza | Forma linguistica da usare |
+|---|---|
+| Dato statistico robusto, studio replicato | "I dati mostrano che...", "La ricerca rileva che..." |
+| Studio qualitativo / campione piccolo / singolo studio | "I risultati suggeriscono...", "L'indagine indica..." |
+| Ipotesi propria, interpretazione personale | "Ci sembra che...", "Si potrebbe ipotizzare che...", "A nostro avviso..." |
+| Questione dibattuta in letteratura | "A nostro avviso...", "Riteniamo che...", condizionale |
+| Osservazione da tirocinio (N=1) | "Nel contesto osservato...", "L'esperienza di tirocinio suggerisce..." |
+
+---
+
 ## Checklist rapida anti-IA
 
 Prima di consegnare ogni sezione di testo, verifica:

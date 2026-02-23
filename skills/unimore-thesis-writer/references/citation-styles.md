@@ -89,7 +89,49 @@ Legge giorno mese anno, n. XX, *Titolo della legge*. Pubblicata nella Gazzetta U
 
 Usato prevalentemente in: Giurisprudenza, Lettere, Filosofia, Storia, ambito umanistico tradizionale.
 
-### Note nel testo
+### Variante DESU/umanistica: endnotes con numerazione [N]
+
+Il DESU e in generale l'ambito pedagogico/umanistico UNIMORE usano endnotes con numerazione progressiva unica su tutta la tesi (non footnotes reali a piè di pagina).
+
+**Nel testo:** `[N]` — parentesi quadra, non apice superscript.
+**Posizione:** il numero va **dopo** la virgola/punto finale: `fine della frase, [12].` oppure `fine del periodo.[12]`
+**Raccolta:** sezioni `## NOTE DEL CAPITOLO I/II/III` e `## NOTE DELLE CONCLUSIONI` in fondo a ogni sezione principale.
+**Numerazione:** progressiva unica sull'intera tesi — non si ricomincia da 1 a ogni capitolo.
+**Definizione nota:** `[N] Cfr. ...` a inizio riga, separata dalla precedente da una riga vuota.
+
+#### Tabella abbreviazioni DESU
+
+| Abbreviazione | Quando | Esempio |
+|---|---|---|
+| `Cfr.` | Prima citazione o rimando generico (parafrasi) | `[12] Cfr. A. Rossi, *Titolo*, Editore, 2020, p. 45.` |
+| `Ivi.` | Stessa opera, stessa pagina, nota immediatamente precedente | `[13] Ivi.` |
+| `Ivi, p. XX.` | Stessa opera, pagina diversa, nota immediatamente precedente | `[14] Ivi, p. 48.` |
+| `N. Cognome, *Titolo*, cit., p. XX.` | Opera già citata ma non nella nota precedente | `[20] A. Rossi, *Titolo*, cit., p. 52.` |
+| (citazione diretta, senza Cfr.) | Citazione letterale con «» nel testo | `[15] A. Rossi, *Titolo*, Editore, 2020, p. 31.` |
+
+#### Formati completi per tipo di fonte (DESU)
+
+**Monografia:**
+`[N] N. Cognome, *Titolo*, Città, Editore, anno, p./pp. XX.`
+
+**Capitolo in volume:**
+`[N] N. Cognome, "Titolo capitolo", in N. Cognome (a cura di), *Titolo volume*, Città, Editore, anno, pp. XX-XX.`
+
+**Articolo in rivista:**
+`[N] N. Cognome, "Titolo articolo", in *Nome Rivista*, vol. X, n. Y, anno, pp. XX-XX.`
+
+**Documento MIUR/ministeriale:**
+`[N] Cfr. MIUR, *Titolo documento*, Roma, anno, p. XX.`
+
+**Intervista:**
+`[N] Intervista con la coordinatrice pedagogica, [istituzione], [anno].`
+
+**Sito web:**
+`[N] N. Cognome, "Titolo pagina", in *Nome sito*, URL, consultato il giorno mese anno.`
+
+---
+
+### Note nel testo (sistema tradizionale con apice)
 
 Il numero della nota si pone nel testo come apice: testo della frase¹.
 

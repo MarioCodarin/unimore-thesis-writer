@@ -101,6 +101,108 @@ Usato in: Giurisprudenza, Lettere, Filosofia, Storia, ambito umanistico.
 - Occorrenze successive: Cognome, op. cit., p. XX / Ivi, p. XX / Ibidem
 - Il rimando alla nota si pone DOPO le virgolette ma PRIMA della punteggiatura
 
+## Sistema note DESU [N]
+
+Il DESU (ambito pedagogico/umanistico) usa un sistema di **endnotes con numerazione progressiva** sull'intera tesi. Non si tratta di footnotes reali: le note sono raccolte in sezioni dedicate alla fine di ogni capitolo.
+
+### Formato nel corpo del testo
+
+Il riferimento alla nota si inserisce come `[N]` — parentesi quadra, numero, parentesi quadra — **non** come apice superscript. Posizionamento:
+
+- Dopo la virgola o il punto finale del periodo: `parola finale, [N]` oppure `fine del periodo.[N]`
+- Il numero `[N]` va inserito **dopo** la virgola o il punto, non prima
+- Esempio corretto: «citazione» [12]. — Esempio ERRATO: «citazione [12]».
+
+### Sezioni NOTE DEL CAPITOLO
+
+Ogni capitolo termina con una sezione:
+
+```
+## NOTE DEL CAPITOLO I
+## NOTE DEL CAPITOLO II
+## NOTE DELLE CONCLUSIONI
+```
+
+La numerazione è **unica e progressiva** su tutta la tesi: non si ricomincia da 1 a ogni capitolo.
+
+### Formato delle singole note
+
+Ogni nota inizia a inizio riga con `[N] `, separata dalla precedente da una riga vuota:
+
+```
+[N] Cfr. N. Cognome, *Titolo libro*, Città, Editore, anno, p. XX.
+[N] Cfr. N. Cognome, "Titolo articolo", in *Nome Rivista*, vol. X, n. Y, anno, pp. XX-XX.
+[N] Intervista con la coordinatrice pedagogica, [istituzione], [anno].
+[N] Ivi.
+[N] Ivi, p. XX.
+[N] Cfr. N. Cognome, *Titolo*, cit., p. XX.
+```
+
+Regola `Ivi` / `cit.`:
+- `Ivi.` → stessa opera **e** stessa pagina della nota immediatamente precedente
+- `Ivi, p. XX.` → stessa opera, pagina **diversa**, nota immediatamente precedente
+- `N. Cognome, *Titolo*, cit., p. XX.` → opera già citata ma **non** nella nota precedente
+
+Per le citazioni letterali (virgolette caporali «» nel testo) si omette `Cfr.`:
+```
+[N] N. Cognome, *Titolo*, Editore, anno, p. XX.
+```
+
+---
+
+## Workflow di inserimento note in testo esistente
+
+Quando si aggiunge un paragrafo con nota `[N]` in mezzo a un testo che ha già note `[N+1]`, `[N+2]`..., si deve procedere **bottom-to-top** per mantenere l'integrità della numerazione:
+
+1. **Partire dalla fine del file** verso l'inizio
+2. **Spostare prima le note più alte**: rinominare `[235]` → `[236]`, poi `[234]` → `[235]`, ecc.
+3. **Solo dopo** inserire il nuovo paragrafo con la sua nota `[N]`
+4. **Aggiungere la definizione** della nota nella sezione `## NOTE DEL CAPITOLO X` corretta
+5. **Verificare l'integrità**: ogni `[N]` nel testo deve avere esattamente una definizione `[N] ` a inizio riga nelle NOTE
+
+NON procedere top-to-bottom: si rischia di rinominare lo stesso numero due volte e introdurre duplicati.
+
+---
+
+## Densificazione semantica: come scrivere di più e meglio
+
+Ogni affermazione teorica può — e deve — essere espansa. Schema di un paragrafo denso (da 30 e lode):
+
+```
+[Affermazione teorica con autore e nota]
+[Dato empirico specifico con nota]
+[Esempio concreto dal contesto reale con nota]
+[Implicazione pedagogica o critica]
+```
+
+Le tre leve di densificazione:
+
+1. **Dato empirico specifico**: %, n campione, nome studio, anno, istituzione
+2. **Collegamento al contesto concreto**: tirocinio, intervista, territorio, realtà osservata
+3. **Implicazione pedagogica esplicita**: cosa significa per la pratica, per il progetto, per la disciplina
+
+**NON espandere con**: parafrasi circolari, ripetizione di concetti già espressi, aggettivi qualificativi, liste di esempi generici. Se aggiungi testo e il significato non cambia, elimina.
+
+---
+
+## Fonti da tirocinio e interviste
+
+L'intervista a un professionista è **fonte primaria** e va citata come nota:
+
+```
+[N] Intervista con [ruolo, istituzione], [luogo], [anno].
+```
+
+- Se il nome non è autorizzato alla pubblicazione: citare solo il ruolo e l'istituzione
+- Per citazione diretta di frase pronunciata: virgolette caporali «...» nel testo + nota con formato sopra
+- Per osservazione etnografica indiretta: parafrasi + nota
+
+Esempi di integrazione testo-nota:
+- «"La bambina non riesce a stare ferma più di tre minuti", osserva la coordinatrice pedagogica [N]»
+- «Nel contesto osservato durante il tirocinio, il passaggio tra le stazioni avveniva senza segnale verbale [N]»
+
+---
+
 ## Regole ortografiche e tipografiche italiane
 
 Segui rigorosamente queste convenzioni dell'italiano accademico:
@@ -264,6 +366,7 @@ Quando l'utente chiede di scrivere una parte della tesi:
 2. **Applica le regole del dipartimento**: Consulta `references/department-rules.md`
 3. **Scegli il registro**: Adatta al tipo di capitolo (più descrittivo il teorico, più analitico la discussione)
 4. **Scrivi in modo naturale**: Applica TUTTE le regole anti-IA di questa skill
+4a. **Aggiorna la bibliografia**: ogni nuova fonte citata nel paragrafo va aggiunta subito al file di bibliografia. Non rimandare.
 5. **Cita correttamente**: Ogni affermazione non banale deve avere una fonte, nel sistema scelto
 6. **Verifica**: Rileggi per eliminare pattern artificiali residui
 
